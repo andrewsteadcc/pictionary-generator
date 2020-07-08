@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Baby Shower Pictionary Generator</title>
+  <title>Pictionary Word Generator</title>
   <meta name="description" content="The Steads Pictionary Generator">
   <meta name="author" content="SitePoint">
 
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <h1 class="alignfull center">Rachel's Baby Shower Pictionary Word Generator</h1>
+  <h1 class="alignfull center">Pictionary Word Generator</h1>
   <div id="wordgen-container">
     <form id="wordgen" action="generator.php" method="get">
       <div class="newWord-container">

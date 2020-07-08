@@ -5,7 +5,7 @@ const words = ["cat","sun","cup","ghost","flower","pie","cow","banana","snowflak
 const baby = ["Birthing ball","Umbilical cord","Baby","Doll","Teddy bear","Nursery","Gas and air","Rachel Hughes","Mark Hughes","Alex Hughes","Joseph Hughes","Grandma","Nappy","Baby monitor","Car seat","Dummy","Baby bottle","Stork","Humpty dumpty","Twinkle Twinkle Little Star","Row, Row, Row Your Boat","The Wheels on the Bus","Milk","Twins","Rattle","Morning sickness","High chair","Crawling","First steps","Rocking chair","Changing table","Crying baby","Cot","Baby blanket","Mittens","Baby grow","Baby bouncer","Moses basket","Ultrasound","Booties","Hooded towel","Due date","First tooth","Nappy cake","Sleep deprivation","Baby shower","Muslin cloth","Baby lotion","Talcum powder","Bibs","Swollen feet","Hospital","Love","Cuddles","Stretch marks","Burp","Sippy cup","Suck thumb","Formula","Baby wipes"]
 
 function getRandomWord() {
-  const randomElement = baby[Math.floor(Math.random() * baby.length)];
+  const randomElement = baby[Math.floor(Math.random() * words.length)];
   document.getElementById('gennedword').innerHTML = randomElement.charAt(0).toUpperCase()+randomElement.slice(1);
 }
 
